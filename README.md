@@ -1,4 +1,4 @@
-# Workflow Scheduling in Cloud Using GWO
+# Workflow Scheduling in Cloud Using DGWO
 
 This project addresses the task scheduling problem in cloud environments using the Discrete Grey Wolf Optimizer (DGWO) algorithm.  It focuses on efficiently assigning dependent workflow tasks to virtual machines (VMs) in order to minimize computation and data transmission costs.
 
