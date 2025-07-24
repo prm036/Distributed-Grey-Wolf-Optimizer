@@ -1,3 +1,4 @@
+# DESCRIPTION
 In cloud computing environments, virtualization technology is used to create       
 Virtual Machines (VMs), which can host and execute workflows composed of          
 dependent tasks. To optimize the utilization of available resources, it is        
@@ -29,3 +30,36 @@ including job scheduling, task allocation, and feature selection. By using
 the DGWO algorithm to solve the workflow scheduling problem, it is possible       
 to achieve better performance than traditional optimization algorithms,           
 particularly for medium and high-dimensional problems.                            
+
+# CONCLUSION
+The proposed algorithm was experimentally tested and compared to two well-known   
+optimization-based scheduling algorithms (PSO, GWO) using two types of workflows: 
+balanced and imbalanced workflows.                                                
+
+The overall experimental results on balanced workflows suggest that DGWO          
+performs better than GWO and PSO when applied to various data sizes.             
+PSO has the worst performance compared to the other algorithms, especially for    
+small population sizes.                                                           
+
+The overall experimental results conducted on imbalanced workflows indicate       
+more clearly that DGWO performs better than GWO and PSO. This means that GWO      
+and PSO require more computations to produce comparable results to DGWO.          
+
+In conclusion, the DGWO algorithm is a powerful and effective optimization        
+technique for scheduling tasks on the cloud.                                      
+
+By using a combination of hunting and social behavior inspired by gray wolves,    
+the algorithm is able to efficiently explore the search space and find high-      
+quality solutions that minimize the makespan of the workflow.                     
+
+The dynamic adjustment of the number of wolves in each position during the        
+search process also allows the algorithm to adapt to the uncertainties in the     
+cloud environment and improve the quality of the solutions found.                 
+
+Overall, the DGWO algorithm provides a promising approach to addressing the       
+complex and challenging problem of scheduling workflows in the cloud, which is    
+essential for optimizing the performance and efficiency of cloud computing        
+systems. 
+
+With further research and development, this algorithm has the potential  
+to contribute significantly to the field of cloud computing and data analytics.   
