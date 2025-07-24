@@ -1,0 +1,31 @@
+In cloud computing environments, virtualization technology is used to create       
+Virtual Machines (VMs), which can host and execute workflows composed of          
+dependent tasks. To optimize the utilization of available resources, it is        
+important to schedule these workflows efficiently. The task scheduling problem    
+involves assigning the dependent tasks of a workflow to the available VMs on      
+the cloud, while minimizing the total completion time or other objective          
+functions. 
+
+However, the task scheduling problem in cloud computing is known       
+to be NP-hard, which means that finding an optimal solution can be                
+computationally infeasible for large-scale problems. To overcome this             
+challenge, optimization algorithms such as genetic algorithms, particle           
+swarm optimization, and simulated annealing have been proposed in the            
+literature. However, these algorithms may suffer in performance when              
+dealing with medium and high-dimensional optimization problems. 
+
+To address this challenge, the scheduling process can be modelled as a minimization          
+problem with two objectives: computation and data transmission costs. The         
+computation cost represents the total execution time of the workflow, while       
+the data transmission cost represents the total amount of data transferred        
+between the VMs. To optimize this multi-objective problem, a variety of           
+algorithms can be used, including the DGWO (Discrete Grey Wolf Optimizer)         
+algorithm. 
+
+The DGWO algorithm is a recent metaheuristic optimization              
+algorithm that is based on the social behaviour of grey wolves. This algorithm    
+has been shown to perform well in a variety of optimization problems,             
+including job scheduling, task allocation, and feature selection. By using        
+the DGWO algorithm to solve the workflow scheduling problem, it is possible       
+to achieve better performance than traditional optimization algorithms,           
+particularly for medium and high-dimensional problems.                            
